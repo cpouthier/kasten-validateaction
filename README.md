@@ -2,6 +2,8 @@
 
 ## Overview
 
+A ValidateAction resource (introduced in Kasten 8.0.5 - see https://docs.kasten.io/latest/api/actions#api-validate-action) validates backup data and metadata associated with a given Restore Point. Restore points exported using Filesystem mode can use the validate action to check the volume data exported for that restore point.
+
 This Bash script automates validation of the **latest Kasten RestorePoint** in a Kubernetes cluster.  
 It lists all namespaces, lets you select one, retrieves the most recent RestorePoint, creates a `ValidateAction` to verify data integrity, monitors the validation job in real time, and finally displays detailed results (then deletes the ValidateAction if no errors occurred).
 
