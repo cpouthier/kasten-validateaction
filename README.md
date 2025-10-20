@@ -36,8 +36,8 @@ Make sure your user/service account has permissions to:
 ## Usage
 
 ```bash
-chmod +x get-latest-restore.sh
-./get-latest-restore.sh
+chmod +x validateaction.sh
+./validateaction.sh
 ```
 
 Example output:
@@ -54,7 +54,7 @@ Enter the concerned namespace: wordpress
 ✅ Latest RestorePoint in 'wordpress': scheduled-czqcd9ngj2
 
 NAME                 CREATED                      EXPORT_PROFILE
-scheduled-czqcd9ngj2 2025-10-20T00:01:06Z         backupcopycloud2
+scheduled-czqcd9ngj2 2025-10-20T00:01:06Z         locationprofile
 
 Enter percentage of files to verify (1–100): 100
 ✅ Creating ValidateAction for restore point 'scheduled-czqcd9ngj2'...
