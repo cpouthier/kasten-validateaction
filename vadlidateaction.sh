@@ -1,10 +1,4 @@
 #!/bin/bash
-# ------------------------------------------------------------
-# Script: get-latest-restore.sh
-# Lists namespaces, asks for one, then shows the latest
-# Kasten RestorePoint in that namespace, including export profile.
-# ------------------------------------------------------------
-
 set -euo pipefail
 
 echo "=== Available namespaces ==="
