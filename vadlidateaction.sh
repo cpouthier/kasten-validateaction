@@ -68,7 +68,7 @@ cat > "$TMP_FILE" <<EOF
 apiVersion: actions.kio.kasten.io/v1alpha1
 kind: ValidateAction
 metadata:
-  generateName: validate-sample-app-
+  generateName: validate-
   namespace: kasten-io
 spec:
   volumeDataCheckOptions:
